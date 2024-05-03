@@ -1,0 +1,33 @@
+.header-container {
+  width: 730px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  .title {
+    font-family: "Space Mono";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  button {
+    display: flex;
+    gap: 10px;
+    border: none;
+    background: none;
+    color: #697c9a;
+    text-align: right;
+    font-family: "Space Mono";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.5px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .header-container {
+    width: 90%;
+  }
+}
